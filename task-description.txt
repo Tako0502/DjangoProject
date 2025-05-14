@@ -1,0 +1,93 @@
+ Extended Complex Django Project Requirements
+1. Core Backend (Django & Django Rest Framework)
+	•	Django 4.x+ with DRF (Django Rest Framework)
+	•	Multi-Tenancy Support (e.g., Schema-based or Row-level multi-tenancy)
+	•	Advanced Authentication & Authorization
+	•	JWT with refresh tokens
+	•	OAuth2 & Social Authentication (Google, Facebook, GitHub)
+	•	Role-Based & Attribute-Based Access Control (RBAC & ABAC)
+	•	Two-Factor Authentication (2FA) via OTP or Authenticator Apps
+	•	Database Design & Optimization
+	•	PostgreSQL with Advanced Indexing (GIN, BRIN, etc.)
+	•	Partitioned Tables for Large s
+	•	Database Replication & Sharding
+	•	Logging & Monitoring
+	•	Centralized Logging (ELK Stack: Elasticsearch, Logstash, Kibana)
+	•	Application Performance Monitoring (APM) with Prometheus/Grafana
+	•	Distributed Tracing (OpenTelemetry or Jaeger)
+	•	Asynchronous Processing
+	•	Celery with Redis/RabbitMQ for task queues
+	•	Periodic Scheduled Tasks using Celery Beat
+	•	WebSocket-based real-time notifications (Django Channels)
+	•	Caching & Performance Optimization
+	•	Redis/Memcached for API response caching
+	•	Query Optimization & Read Replicas
+	•	Async Database Queries (Django + PostgreSQL Async Support)
+	•	Full-Text Search Engine
+	•	Elasticsearch or OpenSearch integration
+	•	Advanced text search & autocomplete
+
+2. Frontend (Modern Web App)
+	•	Framework Choices: React.js, Vue.js, Angular with TypeScript
+	•	State Management: Redux, Zustand (React), Pinia/Vuex (Vue), NgRx (Angular)
+	•	Dynamic Forms & Validation (Formik, React Hook Form)
+	•	Progressive Web App (PWA) Support
+	•	Real-time Updates: WebSockets or Server-Sent Events (SSE)
+	•	SSR (Server-Side Rendering) & Static Site Generation (Next.js/Nuxt.js)
+	•	Dark Mode & Theming Support
+	•	Data Visualization: Charts & Graphs (Chart.js, D3.js, Highcharts)
+
+3. Microtecture & External Integrations
+	•	Event-Driven Architecture
+	•	Apache Kafka/RabbitMQ for Inter-Service Communication
+	•	Event Sourcing for Data Consistency
+	•	Authentication Microservice (Custom or Using Keycloak/Auth0)
+	•	Payment & Billing System
+	•	Stripe, PayPal, Razorpay Integration
+	•	Subscription Management with Django Stripe
+	•	Tax & Invoice Generation (PDF Auto-generation)
+	•	File Storage & Processing
+	•	AWS S3 / Google Cloud Storage / MinIO Integration
+	•	Image Processing (Pillow, OpenCV)
+	•	Video Encoding (FFmpeg, AWS Elemental MediaConvert)
+	•	GraphQL API with Strawberry or Graphene
+	•	Machine Learning & AI Integration (Optional)
+	•	Predictive Analytics with Scikit-learn
+	•	Chatbot & NLP Features (OpenAI API, spaCy)
+	•	Computer Vision & Image Recognition (TensorFlow, OpenCV)
+
+4. Mobile App Integration (Optional)
+	•	Cross-Platform Mobile App (React Native/Flutter)
+	•	Offline-First Architecture (SQLite, AsyncStorage)
+	•	Push Notifications (Firebase Cloud Messaging)
+	•	Background Sync & Offline Data Handling
+	•	Biometric Authentication (Face ID/Fingerprint)
+
+5. DevOps, Security & CI/CD
+	•	Infrastructure as Code (IaC)
+	•	Terraform or Ansible for Infrastructure Automation
+	•	Containerization & Orchestration
+	•	Docker & Docker Compose
+	•	Kubernetes (K8s) with Helm Charts
+	•	CI/CD Pipelines
+	•	GitHub Actions, GitLab CI/CD, Jenkins
+	•	Automated Deployment to AWS/GCP/Azure
+	•	Security Hardening
+	•	OWASP Security Practices
+	•	API Rate Limiting & Throttling
+	•	SSL/TLS Encryption (Let's Encrypt)
+	•	Secure Headers & CSP Policies
+	•	Dependency Scanning (Snyk, Bandit)
+	•	Observability & Performance Monitoring
+	•	Prometheus + Grafana for Metrics
+	•	Distributed Logging (Fluentd, Loki)
+	•	Alerting via Slack/Webhooks
+
+6. Additional Advanced Features
+	•	Multi-Language & Multi-Currency Support
+	•	Multi-Tenant SaaS Capability
+	•	User Behavior Analytics (Heatmaps, Session Recording)
+	•	AI-powered Recommendations (Personalized Content)
+	•	Blockchain Integration (Optional)
+	•	IoT Data Processing (MQTT Integration, Edge Computing)
+
