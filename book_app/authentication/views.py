@@ -55,7 +55,7 @@ class LoginView(APIView):
         
         if not user:
             return Response({'error': 'Invalid credentials'}, 
-                           status=status.HTTP_401_UNAUTHORIZED)
+                           status=status.HTTP_400_BAD_REQUEST)
         
         refresh = RefreshToken.for_user(user)
         
